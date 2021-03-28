@@ -1,0 +1,38 @@
+@use './variables';
+
+nav{
+    ul{
+        display: flex;
+        background-color: variables.$nav-color;
+        li{
+            display: inline-block;
+            a{
+                display: block;
+                padding: 16px 0;
+                text-align: center;
+            }
+            :hover{
+                background-color: variables.$nav-hover;
+            }
+        }
+        .nav-items{
+            width: 75%;
+            li{
+                width: 12%;
+            }
+        }
+        .nav-logo{
+            width: 25%;
+            li{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.banner{
+    img{
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,217 @@
+body, header, main, div, article, section, footer, img, ul, li, a, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  background-color: #0e3352;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 16px 0;
+  text-align: center;
+}
+nav ul li :hover {
+  background-color: #0a2b46;
+}
+nav ul .nav-items {
+  width: 75%;
+}
+nav ul .nav-items li {
+  width: 12%;
+}
+nav ul .nav-logo {
+  width: 25%;
+}
+nav ul .nav-logo li {
+  width: 100%;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+.main-container .title {
+  text-align: center;
+  padding: 30px 0;
+}
+.main-container .skills-title {
+  text-align: center;
+  padding: 20px 0;
+}
+.main-container .skills {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main-container .skills .skill {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 20px 0;
+}
+.main-container .skills .skill p {
+  text-align: center;
+  padding: 15px 0;
+}
+.main-container .skills .skill img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 25px 50px;
+}
+.main-container .skills .skill .html {
+  color: #e34b21;
+}
+.main-container .skills .skill .css {
+  color: #0076bc;
+}
+.main-container .skills .skill .js {
+  color: #efda4d;
+}
+.main-container .skills .skill .node {
+  color: #221c20;
+}
+.main-container .skills .skill .mongo {
+  color: #3b291f;
+}
+.main-container .skills .skill .react {
+  color: #61dbfb;
+}
+.main-container .skills .skill .vue {
+  color: #42b883;
+}
+.main-container .skills .skill .anguler {
+  color: #a6120d;
+}
+
+.bottom-banner img {
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.mail input {
+  font-size: 20px;
+  border: #222222 1px solid;
+  padding: 5px;
+}
+.mail button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #0e3352;
+  color: #ffffff;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.skills {
+  height: 723.5px;
+}
+.skills h1 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about {
+  width: 720px;
+  margin: 100px auto;
+  margin-bottom: 397.5px;
+  padding: 20px 50px;
+  border: solid 1px #0e3352;
+  border-radius: 10px;
+}
+.about h2 {
+  padding: 20px 0;
+  text-align: center;
+}
+.about p {
+  text-align: justify;
+}
+
+.contact {
+  width: 500px;
+  margin: 100px auto;
+  margin-bottom: 443.5px;
+  padding: 20px 50px;
+  border: solid 1px #0e3352;
+  border-radius: 10px;
+}
+.contact h2 {
+  padding: 20px 0;
+  text-align: center;
+}
+.contact p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.form {
+  width: 35%;
+  margin: 100px auto;
+  border: 1px solid #0e3352;
+  border-radius: 10px;
+}
+.form .title {
+  text-align: center;
+  padding: 20px 0;
+}
+.form .form-wrapper {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.form .form-wrapper .form-items {
+  margin-bottom: 20px;
+}
+.form .form-wrapper .form-items label {
+  display: inline-block;
+  width: 30%;
+}
+.form .form-wrapper .form-items input {
+  width: 70%;
+  box-sizing: border-box;
+}
+.form .form-wrapper button {
+  display: block;
+  width: 100px;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+.login {
+  margin-bottom: 395.5px;
+}
+
+.register {
+  margin-bottom: 354px;
+}
+
+footer {
+  padding: 16px 20px;
+  text-align: center;
+  background-color: #0e3352;
+  color: #ffffff;
+}

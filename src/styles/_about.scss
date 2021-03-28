@@ -1,0 +1,17 @@
+@use './variables';
+
+.about{
+    width: 720px;
+    margin: 100px auto;
+    margin-bottom: 397.5px;
+    padding: 20px 50px;
+    border: solid 1px variables.$nav-color;
+    border-radius: 10px;
+    h2{
+        padding: 20px 0;
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+    }
+}

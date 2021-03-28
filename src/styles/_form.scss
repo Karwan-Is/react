@@ -1,0 +1,42 @@
+@use './variables';
+
+.form{
+    width: 35%;
+    margin: 100px auto;
+    border: 1px solid variables.$nav-color;
+    border-radius: 10px;
+    .title{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .form-wrapper{
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        .form-items{
+            margin-bottom: 20px;
+            label{
+                display: inline-block;
+                width: 30%;
+            }
+            input{
+                width: 70%;
+                box-sizing: border-box;
+            }
+        }
+        button{
+            display: block;
+            width: 100px;
+            margin: 0px auto;
+            margin-top: 40px;
+        }
+    }
+}
+
+.login{
+    margin-bottom: 395.5px;
+}
+
+.register{
+    margin-bottom: 354px;
+}

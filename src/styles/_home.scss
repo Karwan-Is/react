@@ -1,0 +1,88 @@
+@use './variables';
+
+.main-container{
+    
+    .title{
+        text-align: center;
+        padding: 30px 0;
+    }
+    .skills-title{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .skills{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .skill{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            margin: 20px 0;
+            p{
+                text-align: center;
+                padding: 15px 0;
+            }
+            img{
+                width: 140px;
+                height: 140px;
+                margin: 0 auto;
+                border-radius: 25px 50px;
+            }
+            .html{
+                color: variables.$html-color;
+            }
+            .css{
+                color: variables.$css-color;
+            }
+            .js{
+                color: variables.$js-color;
+            }
+            .node{
+                color: variables.$node-color;
+            }
+            .mongo{
+                color: variables.$mongo-color;
+            }
+            .react{
+                color: variables.$react-color;
+            }
+            .vue{
+                color: variables.$vue-light-color;
+            }
+            .anguler{
+                color: variables.$anguler-dark-color;
+            }
+        }
+    }
+}
+
+.bottom-banner{
+    img{
+        width: 100%;
+        opacity: 0.5;
+        z-index: -1;
+    }
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    input{
+        font-size: 20px;
+        border: variables.$bg-color 1px solid;
+        padding: 5px;
+    }
+    button{
+        padding: 5px 10px;
+        font-size: 16px;
+        background-color: variables.$nav-color;
+        color: variables.$white;
+        border: none;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}   

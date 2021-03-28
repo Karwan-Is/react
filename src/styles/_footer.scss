@@ -1,0 +1,8 @@
+@use './variables';
+
+footer{
+    padding: 16px 20px;
+    text-align: center;
+    background-color: variables.$nav-color;
+    color: variables.$white;
+}
